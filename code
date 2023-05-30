@@ -1,0 +1,15 @@
+Map.js:- {expenses.map((expense) => {
+
+           return <ExpenseItem
+
+            title={expense.title}
+
+            amount={expense.amount}
+
+            date={expense.date}
+
+            LocationOfExpenditure={expense.LocationOfExpenditure}
+
+          ></ExpenseItem>;
+
+        })}
